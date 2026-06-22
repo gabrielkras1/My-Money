@@ -58,22 +58,4 @@ export default function Home() {
 }
 
 
-/*<div className="min-h-screen" style={{ backgroundColor: '#121214' }}>
-      <div style={{ backgroundColor: '#1d1d1d', paddingBottom: '2rem sm:pb-16' }}>
-        <Header onNewTransaction={() => setIsModalOpen(true)} />
-      </div>
 
-      <SummaryCards
-        totalIncome={totalIncome}
-        totalExpense={totalExpense}
-        total={total}
-      />
-
-      <TransactionsTable transactions={transactions} />
-
-      <NewTransactionModal
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-        onAdd={handleAddTransaction}
-      />
-    </div>*/

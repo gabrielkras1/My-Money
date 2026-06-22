@@ -25,3 +25,5 @@ export const BottomSection = styled.div`
   flex: 1;
   padding: 24px 32px;
 `;
+
+
